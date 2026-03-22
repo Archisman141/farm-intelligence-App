@@ -1,6 +1,3 @@
-rootProject.name = "Cropify"
-enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
-
 pluginManagement {
     repositories {
         google {
@@ -28,4 +25,6 @@ dependencyResolutionManagement {
     }
 }
 
+rootProject.name = "Cropify"
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 include(":composeApp")
